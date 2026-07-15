@@ -1,0 +1,29 @@
+{
+  "best_model": "Gradient Boosting",
+  "metrics": {
+    "model": "Gradient Boosting",
+    "roc_auc": 0.6127191283206916,
+    "normalized_gini": 0.22543825664138328,
+    "avg_precision": 0.05311230747975295,
+    "accuracy": 0.96325,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "rows_used": 40000,
+  "n_features": 57,
+  "positive_rate": 0.03645,
+  "marketing_suggestions": [
+    "Prioritize outreach to customers with the highest predicted claim/risk engagement scores from the model.",
+    "Because positives are rare (~3.6%), use ranking/probability scores for campaigns instead of a hard 0.5 cutoff.",
+    "Bundle safer product tiers or deductibles for predicted high-risk segments to improve conversion and retention.",
+    "A/B test offers on top-decile scored customers and measure lift versus random targeting.",
+    "Refresh the model regularly as customer mix and claim behavior drift over time."
+  ],
+  "challenges": [
+    "Severe class imbalance (~3.6% positive) makes accuracy misleading; ROC-AUC/Gini/PR-AUC are preferred.",
+    "Missing values encoded as -1 must be handled explicitly before training.",
+    "Feature names are anonymized, so business interpretation relies on feature-importance proxies.",
+    "Large dataset size requires sampling or efficient model settings for quick iteration."
+  ]
+}

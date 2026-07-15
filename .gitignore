@@ -18,13 +18,11 @@ venv/
 models/
 *.joblib
 *.pkl
-reports/*.png
-reports/*.csv
-!reports/.gitkeep
+# Keep example report outputs tracked; ignore only local scratch copies if needed
+# reports/*.png and reports/*.csv are intentionally committed as sample results
 
 # IDE / OS
 .DS_Store
 .idea/
 .vscode/
-*.docx
 ~$*
