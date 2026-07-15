@@ -2,6 +2,8 @@
 
 Intern-level data science project for predicting insurance claim likelihood and recommending marketing actions.
 
+> **New here?** Start with [`PROJECT_EXPLANATION.md`](./PROJECT_EXPLANATION.md) for a plain-language walkthrough of the problem, dataset, files, results, and recommendations.
+
 This repository was built from the **PRCP-1010-InsClaimPred** capstone brief:
 
 1. **Task 1:** Train a predictive model to help the insurance marketing team identify customers more likely to buy / engage with the product.
@@ -26,6 +28,7 @@ python scripts/download_data.py
 
 ```text
 .
+├── PROJECT_EXPLANATION.md             # plain-language project explanation
 ├── notebooks/
 │   └── PRCP_1010_InsClaimPred.ipynb   # main submission notebook
 ├── scripts/
