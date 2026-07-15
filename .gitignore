@@ -1,6 +1,7 @@
 # Data (download via scripts/download_data.py)
 data/
 *.csv
+!reports/model_comparison.csv
 *.zip
 
 # Python
